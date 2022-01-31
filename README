@@ -4,8 +4,8 @@ Major: Computer Science at UTD
 
 Solution Description/Explanation:
 In this program, I created a pipeline into a Logistic Regression model to predict/classify a mushroom as poisonous or edible.
-I used functions from the sklearn model_selection, linear_model, preprocessing, and pipeline libraries. The data was preprocessed using the OneHotEncoder function 
-in order to handle a ValueError regarding conversion of a string to a float that occurred when training the model. 
+I used functions from the sklearn model_selection, linear_model, preprocessing, and pipeline libraries. I split the data into 80% training and 20% testing.
+The data was preprocessed using the OneHotEncoder function in order to handle a ValueError regarding conversion of a string to a float that occurred when training the model. 
 
 Credit:
 Kaggle Intro to Machine Learning Course
